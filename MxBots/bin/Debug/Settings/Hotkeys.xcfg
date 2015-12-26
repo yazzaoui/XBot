@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<ArrayOfAnyType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <anyType xsi:type="HKMDB">
+    <KeyData>LButton MButton XButton1 Back Tab Clear Return Enter Control</KeyData>
+    <Id>1</Id>
+  </anyType>
+  <anyType xsi:type="HKMDB">
+    <KeyData>RButton MButton XButton2 B D F Control</KeyData>
+    <Id>2</Id>
+  </anyType>
+  <anyType xsi:type="HKMDB">
+    <KeyData>RButton ShiftKey Menu B P R Control</KeyData>
+    <Id>3</Id>
+  </anyType>
+  <anyType xsi:type="HKMDB">
+    <KeyData>LButton RButton Cancel A B C Control</KeyData>
+    <Id>4</Id>
+  </anyType>
+  <anyType xsi:type="HKMDB">
+    <KeyData>Back ShiftKey FinalMode H P X Control</KeyData>
+    <Id>4</Id>
+  </anyType>
+  <anyType xsi:type="HKMDB">
+    <KeyData>LButton Space Prior PageUp A NumPad0 NumPad1 Control</KeyData>
+    <Id>6</Id>
+  </anyType>
+  <anyType xsi:type="HKMDB">
+    <KeyData>RButton Space Next PageDown B NumPad0 NumPad2 Control</KeyData>
+    <Id>7</Id>
+  </anyType>
+  <anyType xsi:type="HKMDB">
+    <KeyData>LButton RButton Cancel Space Prior PageUp Next PageDown End A B C NumPad0 NumPad1 NumPad2 NumPad3 Control</KeyData>
+    <Id>8</Id>
+  </anyType>
+</ArrayOfAnyType>

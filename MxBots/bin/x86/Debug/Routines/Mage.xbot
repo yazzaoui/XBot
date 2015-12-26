@@ -1,0 +1,16 @@
+<<PreCombat>>
+->
+ CastSpell("Armure de givre");
+<-
+
+<<AttackingTarget>>
+->
+  CastSpell("Boule de feu");
+-- add your custom lua stuff here :)
+<-
+
+<<GotAggro>>
+->
+  CastSpell("Boule de feu");
+-- add your custom lua stuff here :)
+<-

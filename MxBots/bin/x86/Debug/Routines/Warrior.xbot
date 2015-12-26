@@ -1,0 +1,9 @@
+<<AttackingTarget>>
+->
+  CastSpell("Frappe héroïque");
+<-
+
+<<RetrieveAggro>>
+->
+  CastSpell("Frappe héroïque");
+<-

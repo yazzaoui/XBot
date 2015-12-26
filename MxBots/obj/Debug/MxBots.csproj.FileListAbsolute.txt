@@ -1,0 +1,13 @@
+C:\Users\YoumeW\Projects VC#\MxBots\MxBots\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\YoumeW\Projects VC#\MxBots\MxBots\obj\Debug\MxBots.Userconfig_routines.resources
+C:\Users\YoumeW\Projects VC#\MxBots\MxBots\obj\Debug\MxBots.CombatSettings.resources
+C:\Users\YoumeW\Projects VC#\MxBots\MxBots\obj\Debug\MxBots.Form1.resources
+C:\Users\YoumeW\Projects VC#\MxBots\MxBots\obj\Debug\MxBots.Form2.resources
+C:\Users\YoumeW\Projects VC#\MxBots\MxBots\obj\Debug\MxBots.hotkeymanager.resources
+C:\Users\YoumeW\Projects VC#\MxBots\MxBots\obj\Debug\MxBots.Panels_de_configuration.XC_CustomConsole.resources
+C:\Users\YoumeW\Projects VC#\MxBots\MxBots\obj\Debug\MxBots.Properties.Resources.resources
+C:\Users\YoumeW\Projects VC#\MxBots\MxBots\obj\Debug\MxBots.XC_GlobalBotSettings.resources
+C:\Users\YoumeW\Projects VC#\MxBots\MxBots\obj\Debug\MxBots.XC_XbConfig.resources
+C:\Users\YoumeW\Projects VC#\MxBots\MxBots\obj\Debug\MxBots.csproj.GenerateResource.Cache
+C:\Users\YoumeW\Projects VC#\MxBots\MxBots\bin\Debug\XBot.exe.config
+C:\Users\YoumeW\Projects VC#\MxBots\MxBots\obj\Debug\MxBots.MageSettings.resources

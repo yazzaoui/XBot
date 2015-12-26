@@ -1,0 +1,74 @@
+C:\Users\Maison\Documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Maison\Documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\MxBots.Form1.resources
+C:\Users\Maison\Documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\MxBots.Form2.resources
+C:\Users\Maison\Documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\MxBots.Properties.Resources.resources
+C:\Users\Maison\Documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\MxBots.csproj.GenerateResource.Cache
+C:\Users\Maison\Documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\MxBots.hotkeymanager.resources
+C:\Users\Maison\Documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\MxBots.CombatSettings.resources
+C:\Users\Maison\Documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\MxBots.Userconfig_routines.resources
+C:\Users\Maison\Documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\MxBots.XC_GlobalBotSettings.resources
+C:\Users\Maison\Documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\MxBots.XC_XbConfig.resources
+C:\Users\Maison\Documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\MxBots.Panels_de_configuration.XC_CustomConsole.resources
+C:\Users\Maison\Documents\Visual Studio 2008\Projects\MxBots\MxBots\bin\Debug\XBot.exe.config
+C:\Users\Maison\Documents\Visual Studio 2008\Projects\MxBots\MxBots\bin\Debug\XBot.exe.manifest
+C:\Users\Maison\Documents\Visual Studio 2008\Projects\MxBots\MxBots\bin\Debug\XBot.application
+C:\Users\Maison\Documents\Visual Studio 2008\Projects\MxBots\MxBots\bin\Debug\XBot.exe
+C:\Users\Maison\Documents\Visual Studio 2008\Projects\MxBots\MxBots\bin\Debug\XBot.pdb
+C:\Users\Maison\Documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\XBot.exe.manifest
+C:\Users\Maison\Documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\XBot.application
+C:\Users\Maison\Documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\XBot.exe
+C:\Users\Maison\Documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\XBot.pdb
+C:\Documents and Settings\Youssef\Mes documents\Visual Studio 2008\Projects\MxBots\MxBots\bin\Debug\XBot.exe.config
+C:\Documents and Settings\Youssef\Mes documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\XBot.exe
+C:\Documents and Settings\Youssef\Mes documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Youssef\Mes documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\MxBots.CombatSettings.resources
+C:\Documents and Settings\Youssef\Mes documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\MxBots.Form1.resources
+C:\Documents and Settings\Youssef\Mes documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\MxBots.Form2.resources
+C:\Documents and Settings\Youssef\Mes documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\MxBots.hotkeymanager.resources
+C:\Documents and Settings\Youssef\Mes documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\MxBots.Panels_de_configuration.XC_CustomConsole.resources
+C:\Documents and Settings\Youssef\Mes documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\MxBots.Properties.Resources.resources
+C:\Documents and Settings\Youssef\Mes documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\MxBots.Userconfig_routines.resources
+C:\Documents and Settings\Youssef\Mes documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\MxBots.XC_GlobalBotSettings.resources
+C:\Documents and Settings\Youssef\Mes documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\MxBots.XC_XbConfig.resources
+C:\Documents and Settings\Youssef\Mes documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\MxBots.csproj.GenerateResource.Cache
+C:\Documents and Settings\Youssef\Mes documents\Visual Studio 2008\Projects\MxBots\MxBots\bin\Debug\XBot.exe.manifest
+C:\Documents and Settings\Youssef\Mes documents\Visual Studio 2008\Projects\MxBots\MxBots\bin\Debug\XBot.application
+C:\Documents and Settings\Youssef\Mes documents\Visual Studio 2008\Projects\MxBots\MxBots\bin\Debug\XBot.exe
+C:\Documents and Settings\Youssef\Mes documents\Visual Studio 2008\Projects\MxBots\MxBots\bin\Debug\XBot.pdb
+C:\Documents and Settings\Youssef\Mes documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\XBot.exe.manifest
+C:\Documents and Settings\Youssef\Mes documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\XBot.application
+C:\Documents and Settings\Youssef\Mes documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\XBot.pdb
+C:\Users\Azot3\Documents\Visual Studio 2008\Projects\MxBots\MxBots\bin\Debug\XBot.exe.config
+C:\Users\Azot3\Documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\XBot.exe
+C:\Users\Azot3\Documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\XBot.pdb
+C:\Users\Azot3\Documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Azot3\Documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\MxBots.CombatSettings.resources
+C:\Users\Azot3\Documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\MxBots.Form1.resources
+C:\Users\Azot3\Documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\MxBots.Form2.resources
+C:\Users\Azot3\Documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\MxBots.hotkeymanager.resources
+C:\Users\Azot3\Documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\MxBots.Panels_de_configuration.XC_CustomConsole.resources
+C:\Users\Azot3\Documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\MxBots.Properties.Resources.resources
+C:\Users\Azot3\Documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\MxBots.Userconfig_routines.resources
+C:\Users\Azot3\Documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\MxBots.XC_GlobalBotSettings.resources
+C:\Users\Azot3\Documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\MxBots.XC_XbConfig.resources
+C:\Users\Azot3\Documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\MxBots.csproj.GenerateResource.Cache
+C:\Users\Azot3\Documents\Visual Studio 2008\Projects\MxBots\MxBots\bin\Debug\XBot.exe.manifest
+C:\Users\Azot3\Documents\Visual Studio 2008\Projects\MxBots\MxBots\bin\Debug\XBot.application
+C:\Users\Azot3\Documents\Visual Studio 2008\Projects\MxBots\MxBots\bin\Debug\XBot.exe
+C:\Users\Azot3\Documents\Visual Studio 2008\Projects\MxBots\MxBots\bin\Debug\XBot.pdb
+C:\Users\Azot3\Documents\Visual Studio 2008\Projects\MxBots\MxBots\bin\Debug\fasmdll_managed.dll
+C:\Users\Azot3\Documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\XBot.exe.manifest
+C:\Users\Azot3\Documents\Visual Studio 2008\Projects\MxBots\MxBots\obj\Debug\XBot.application
+C:\Users\YoumeW\Projects VC#\MxBots\MxBots\bin\Debug\XBot.exe.config
+C:\Users\YoumeW\Projects VC#\MxBots\MxBots\obj\Debug\XBot.exe
+C:\Users\YoumeW\Projects VC#\MxBots\MxBots\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\YoumeW\Projects VC#\MxBots\MxBots\obj\Debug\MxBots.Userconfig_routines.resources
+C:\Users\YoumeW\Projects VC#\MxBots\MxBots\obj\Debug\MxBots.CombatSettings.resources
+C:\Users\YoumeW\Projects VC#\MxBots\MxBots\obj\Debug\MxBots.Form1.resources
+C:\Users\YoumeW\Projects VC#\MxBots\MxBots\obj\Debug\MxBots.Form2.resources
+C:\Users\YoumeW\Projects VC#\MxBots\MxBots\obj\Debug\MxBots.hotkeymanager.resources
+C:\Users\YoumeW\Projects VC#\MxBots\MxBots\obj\Debug\MxBots.Panels_de_configuration.XC_CustomConsole.resources
+C:\Users\YoumeW\Projects VC#\MxBots\MxBots\obj\Debug\MxBots.Properties.Resources.resources
+C:\Users\YoumeW\Projects VC#\MxBots\MxBots\obj\Debug\MxBots.XC_GlobalBotSettings.resources
+C:\Users\YoumeW\Projects VC#\MxBots\MxBots\obj\Debug\MxBots.XC_XbConfig.resources
+C:\Users\YoumeW\Projects VC#\MxBots\MxBots\obj\Debug\MxBots.csproj.GenerateResource.Cache

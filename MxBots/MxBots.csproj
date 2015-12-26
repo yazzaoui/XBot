@@ -1,0 +1,487 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CFDEEE3D-784C-45FF-B761-59DEEC79E7B0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MxBots</RootNamespace>
+    <AssemblyName>XBot</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ManifestCertificateThumbprint>C1BE28BCABF47536A288D04E1C104F769691CC1B</ManifestCertificateThumbprint>
+    <ManifestKeyFile>MxBots_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <StartupObject>MxBots.Program</StartupObject>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <ProductName>XBOT</ProductName>
+    <PublisherName>LVMEX H3X</PublisherName>
+    <SuiteName>XBOT</SuiteName>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="fasmdll_managed, Version=1.0.3262.20709, Culture=neutral, processorArchitecture=x86">
+      <HintPath>..\..\BlackMagic\bin\Debug\fasmdll_managed.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="irrKlang.NET, Version=1.3.0.0, Culture=neutral, PublicKeyToken=a854741bd80517c7" />
+    <Reference Include="LuaInterface, Version=2.0.0.16708, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\LuaInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="MpqLib, Version=1.0.3329.41510, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\MpqLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BlackMagic\BMInject.cs" />
+    <Compile Include="BlackMagic\BMMain.cs" />
+    <Compile Include="BlackMagic\BMMemory.cs" />
+    <Compile Include="BlackMagic\BMPattern.cs" />
+    <Compile Include="BlackMagic\BMThread.cs" />
+    <Compile Include="BlackMagic\Static Classes\SInject.cs" />
+    <Compile Include="BlackMagic\Static Classes\SMemory.cs" />
+    <Compile Include="BlackMagic\Static Classes\SPattern.cs" />
+    <Compile Include="BlackMagic\Static Classes\SProcess.cs" />
+    <Compile Include="BlackMagic\Static Classes\SThread.cs" />
+    <Compile Include="BlackMagic\Static Classes\SWindow.cs" />
+    <Compile Include="BlackMagic\Static Classes\Win32Imports.cs" />
+    <Compile Include="Bot\Actions\BotHelper.cs" />
+    <Compile Include="Bot\Actions\LuaHelper.cs" />
+    <Compile Include="Bot\bot.cs" />
+    <Compile Include="Bot\BotHub.cs">
+    </Compile>
+    <Compile Include="Bot\Classes\Chasseur.cs" />
+    <Compile Include="Bot\Classes\Paladin.cs" />
+    <Compile Include="Bot\SpecialClasses.cs" />
+    <Compile Include="Bot\Classes\Voleur.cs" />
+    <Compile Include="Bot\Classes\Démoniste.cs" />
+    <Compile Include="Bot\Classes\Shaman.cs" />
+    <Compile Include="Bot\Classes\DeathKnight.cs" />
+    <Compile Include="Bot\Classes\Druide.cs" />
+    <Compile Include="Bot\Classes\Prêtre.cs" />
+    <Compile Include="Bot\Classes\Mage.cs" />
+    <Compile Include="Bot\Classes\Guerrier.cs" />
+    <Compile Include="Bot\enums.cs" />
+    <Compile Include="ClassSettings.cs" />
+    <Compile Include="ClassSettings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>ClassSettings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="GEnum\eChatChannel.cs" />
+    <Compile Include="GEnum\eChatLanguage.cs" />
+    <Compile Include="GEnum\eGCombatResult.cs" />
+    <Compile Include="GEnum\eObjectType.cs" />
+    <Compile Include="GEnum\ePlayerFactions.cs" />
+    <Compile Include="GEnum\eTitles.cs" />
+    <Compile Include="GEnum\eUnitReaction.cs" />
+    <Compile Include="GEnum\eVirtualKeys.cs" />
+    <Compile Include="GEnum\eWindowState.cs" />
+    <Compile Include="Hotkeys\Hook.cs" />
+    <Compile Include="Lib\GContext.cs" />
+    <Compile Include="Lib\GGameClass.cs" />
+    <Compile Include="Lib\GLocation.cs" />
+    <Compile Include="Lib\GMovement.cs" />
+    <Compile Include="Lib\Gnav.cs" />
+    <Compile Include="Lib\GObject.cs" />
+    <Compile Include="Lib\GObjectList.cs" />
+    <Compile Include="Lib\GProfile.cs" />
+    <Compile Include="Lib\GSpellTimer.cs" />
+    <Compile Include="Lib\KeyHelper.cs" />
+    <Compile Include="Lib\Keys.cs" />
+    <Compile Include="Lib\SubClasses\GCorpses.cs" />
+    <Compile Include="Lib\SubClasses\GDynamic.cs" />
+    <Compile Include="Lib\SubClasses\GItem.cs" />
+    <Compile Include="Lib\SubClasses\GMonster.cs" />
+    <Compile Include="Lib\SubClasses\GNode.cs" />
+    <Compile Include="Lib\SubClasses\GPlayer.cs" />
+    <Compile Include="Lib\SubClasses\GPlayerSelf.cs" />
+    <Compile Include="Lib\SubClasses\GUnit.cs" />
+    <Compile Include="Object Refresher\Events.cs" />
+    <Compile Include="Object Refresher\MemoryFunctions.cs" />
+    <Compile Include="Object Refresher\ObjectClasses.cs" />
+    <Compile Include="Object Refresher\ObjectsRefresher.cs" />
+    <Compile Include="Outils\CanRead.cs" />
+    <Compile Include="Outils\Descriptors.cs" />
+    <Compile Include="Outils\Ini.cs" />
+    <Compile Include="Outils\PostMessage.cs" />
+    <Compile Include="Outils\RunAs.cs" />
+    <Compile Include="Outils\SoundLib.cs" />
+    <Compile Include="Outils\ThreadManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Panels de configuration\ClassesCustomSettings\DeathKnight.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels de configuration\ClassesCustomSettings\DeathKnight.Designer.cs">
+      <DependentUpon>DeathKnight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panels de configuration\ClassesCustomSettings\Druid.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels de configuration\ClassesCustomSettings\Druid.Designer.cs">
+      <DependentUpon>Druid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panels de configuration\ClassesCustomSettings\GeneralClasses.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels de configuration\ClassesCustomSettings\GeneralClasses.Designer.cs">
+      <DependentUpon>GeneralClasses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panels de configuration\ClassesCustomSettings\Hunter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels de configuration\ClassesCustomSettings\Hunter.Designer.cs">
+      <DependentUpon>Hunter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panels de configuration\ClassesCustomSettings\Mage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels de configuration\ClassesCustomSettings\Mage.Designer.cs">
+      <DependentUpon>Mage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panels de configuration\ClassesCustomSettings\Priest.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels de configuration\ClassesCustomSettings\Priest.Designer.cs">
+      <DependentUpon>Priest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panels de configuration\ClassesCustomSettings\Rogue.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels de configuration\ClassesCustomSettings\Rogue.Designer.cs">
+      <DependentUpon>Rogue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panels de configuration\ClassesCustomSettings\Shaman.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels de configuration\ClassesCustomSettings\Shaman.Designer.cs">
+      <DependentUpon>Shaman.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panels de configuration\ClassesCustomSettings\Warlock.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels de configuration\ClassesCustomSettings\Warlock.Designer.cs">
+      <DependentUpon>Warlock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panels de configuration\ClassesCustomSettings\Warrior.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels de configuration\ClassesCustomSettings\Warrior.Designer.cs">
+      <DependentUpon>Warrior.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panels de configuration\WpEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Panels de configuration\WpEditor.Designer.cs">
+      <DependentUpon>WpEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panels de configuration\WpEditorSaving.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Panels de configuration\WpEditorSaving.Designer.cs">
+      <DependentUpon>WpEditorSaving.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panels de configuration\XC_fun.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels de configuration\XC_fun.Designer.cs">
+      <DependentUpon>XC_fun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panels de configuration\CombatSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels de configuration\CombatSettings.Designer.cs">
+      <DependentUpon>CombatSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Outils\DirectoryDialog.cs" />
+    <Compile Include="Hotkeys\HKMDB.cs" />
+    <Compile Include="Panels de configuration\hotkeymanager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels de configuration\hotkeymanager.Designer.cs">
+      <DependentUpon>hotkeymanager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Outils\MEMOIRE.cs" />
+    <Compile Include="Misc\SomeSettings.cs" />
+    <Compile Include="Hotkeys\HotkeyBak.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hotkeys\hotkey.cs" />
+    <Compile Include="Panels de configuration\ClassesCustomSettings\Paladin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels de configuration\ClassesCustomSettings\Paladin.Designer.cs">
+      <DependentUpon>Paladin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panels de configuration\Userconfig_routines.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels de configuration\Userconfig_routines.Designer.cs">
+      <DependentUpon>Userconfig_routines.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panels de configuration\XC_CommonBinds.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels de configuration\XC_CommonBinds.Designer.cs">
+      <DependentUpon>XC_CommonBinds.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panels de configuration\XC_CustomConsole.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels de configuration\XC_CustomConsole.Designer.cs">
+      <DependentUpon>XC_CustomConsole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Panels de configuration\ClassesCustomSettings\DeathKnight.resx">
+      <DependentUpon>DeathKnight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels de configuration\ClassesCustomSettings\Druid.resx">
+      <DependentUpon>Druid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels de configuration\ClassesCustomSettings\GeneralClasses.resx">
+      <DependentUpon>GeneralClasses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels de configuration\ClassesCustomSettings\Hunter.resx">
+      <DependentUpon>Hunter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels de configuration\ClassesCustomSettings\Mage.resx">
+      <DependentUpon>Mage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels de configuration\ClassesCustomSettings\Paladin.resx">
+      <DependentUpon>Paladin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels de configuration\ClassesCustomSettings\Priest.resx">
+      <DependentUpon>Priest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels de configuration\ClassesCustomSettings\Rogue.resx">
+      <DependentUpon>Rogue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels de configuration\ClassesCustomSettings\Shaman.resx">
+      <DependentUpon>Shaman.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels de configuration\ClassesCustomSettings\Warlock.resx">
+      <DependentUpon>Warlock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels de configuration\ClassesCustomSettings\Warrior.resx">
+      <DependentUpon>Warrior.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels de configuration\CombatSettings.resx">
+      <DependentUpon>CombatSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels de configuration\hotkeymanager.resx">
+      <DependentUpon>hotkeymanager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels de configuration\Userconfig_routines.resx">
+      <DependentUpon>Userconfig_routines.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels de configuration\WpEditor.resx">
+      <DependentUpon>WpEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels de configuration\WpEditorSaving.resx">
+      <DependentUpon>WpEditorSaving.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels de configuration\XC_CommonBinds.resx">
+      <DependentUpon>XC_CommonBinds.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels de configuration\XC_CustomConsole.resx">
+      <DependentUpon>XC_CustomConsole.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels de configuration\XC_fun.resx">
+      <DependentUpon>XC_fun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels de configuration\XC_GlobalBotSettings.resx">
+      <DependentUpon>XC_GlobalBotSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels de configuration\XC_XbConf.resx">
+      <DependentUpon>XC_XbConf.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="ClassSettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>ClassSettings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Misc\App.config" />
+    <None Include="Misc\user.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Misc\Settings.cs" />
+    <Compile Include="Panels de configuration\userconfig_keyboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels de configuration\userconfig_keyboard.Designer.cs">
+      <DependentUpon>userconfig_keyboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panels de configuration\XC_GlobalBotSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels de configuration\XC_GlobalBotSettings.Designer.cs">
+      <DependentUpon>XC_GlobalBotSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panels de configuration\XC_XbConf.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels de configuration\XC_XbConf.Designer.cs">
+      <DependentUpon>XC_XbConf.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PourSeRappeller.txt" />
+    <None Include="Resources\dot2.jpg" />
+    <None Include="Resources\dot1.jpg" />
+    <None Include="Resources\cred.jpg" />
+    <None Include="Resources\Abstract Wallpapers_00109.png" />
+    <None Include="Resources\olol.png" />
+    <None Include="Resources\Sans titre-24.png" />
+    <None Include="Resources\test.png" />
+    <None Include="Resources\XBot1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

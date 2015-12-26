@@ -1,0 +1,8 @@
+﻿
+Bonjour a celui qui lira sa 
+
+Static sa veut dire pas d'instanciation tu peut utiliser sa comme librairies de fonctions 
+Virtual et Override pour redefinir des trucs classe mere
+
+
+YOUMEW T'ES UN BOSS NE LOUBLIE JAMAIS et vi je le sais :D

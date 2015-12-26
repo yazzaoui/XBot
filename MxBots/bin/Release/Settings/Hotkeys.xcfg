@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ArrayOfAnyType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <anyType xsi:type="HKMDB">
+    <KeyData>LButton MButton XButton1 Back Tab Clear Return Enter Control</KeyData>
+    <Id>1</Id>
+  </anyType>
+  <anyType xsi:type="HKMDB">
+    <KeyData>RButton MButton XButton2 B D F Control</KeyData>
+    <Id>2</Id>
+  </anyType>
+  <anyType xsi:type="HKMDB">
+    <KeyData>RButton ShiftKey Menu B P R Control</KeyData>
+    <Id>3</Id>
+  </anyType>
+</ArrayOfAnyType>

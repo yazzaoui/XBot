@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Keys>
+  <Key KeyName="Common.Assist" ShiftState="None" BarState="Indifferent" Char="F" />
+  <Key KeyName="Common.StrafeLeft" ShiftState="None" BarState="Indifferent" Char="A" />
+  <Key KeyName="Common.StrafeRight" ShiftState="None" BarState="Indifferent" Char="E" />
+  <Key KeyName="Common.Jump" ShiftState="None" BarState="Indifferent" Char="Space" />
+  <Key KeyName="Common.Escape" ShiftState="None" BarState="Indifferent" Char="Escape" />
+  <Key KeyName="Common.TargetSelf" ShiftState="None" BarState="Indifferent" Char="F1" />
+  <Key KeyName="Common.TargetFriend" ShiftState="Ctrl" BarState="Indifferent" Char="Tab" />
+  <Key KeyName="Common.TargetEnemy" ShiftState="None" BarState="Indifferent" Char="Tab" />
+  <Key KeyName="Common.Mount" ShiftState="Ctrl" BarState="1" Char="Y" />
+  <Key KeyName="Common.Enter" ShiftState="Ctrl" BarState="Indifferent" Char="Return" />
+  <Key KeyName="Common.Paste" ShiftState="Ctrl" BarState="Indifferent" Char="V" />
+  <Key KeyName="Common.Eat" ShiftState="None" BarState="Bar2" Char="1" />
+  <Key KeyName="Common.Drink" ShiftState="None" BarState="Bar2" Char="2" />
+  <Key KeyName="Common.PetAttack" ShiftState="Ctrl" BarState="Indifferent" Char="1" />
+  <Key KeyName="Common.PetReturn" ShiftState="Ctrl" BarState="Indifferent" Char="3" />
+  <Key KeyName="Druid.LifebloomOther" ShiftState="None" BarState="Bar1" Char="2" />
+  <Key KeyName="Druid.RejuvenationOther" ShiftState="None" BarState="Bar1" Char="1" />
+  <Key KeyName="Druid.RegrowthOther" ShiftState="None" BarState="Bar1" Char="3" />
+  <Key KeyName="Druid.Thorns" ShiftState="None" BarState="Bar4" Char="5" />
+  <Key KeyName="Druid.motw" ShiftState="None" BarState="Bar4" Char="6" />
+  <Key KeyName="Druid.Nourish" ShiftState="None" BarState="Bar1" Char="4" />
+  <Key KeyName="Druid.Moonfire" ShiftState="None" BarState="Bar3" Char="1" />
+  <Key KeyName="Druid.Wrath" ShiftState="None" BarState="Bar3" Char="2" />
+  <Key KeyName="Druid.Starfire" ShiftState="None" BarState="Bar3" Char="3" />
+  <Key KeyName="Priest.GreatHeal" ShiftState="None" BarState="Bar1" Char="1" />
+  <Key KeyName="Priest.Shield" ShiftState="None" BarState="Bar1" Char="2" />
+  <Key KeyName="Priest.FlashHeal" ShiftState="None" BarState="Bar1" Char="3" />
+  <Key KeyName="Priest.Renew" ShiftState="None" BarState="Bar1" Char="4" />
+  <Key KeyName="Priest.PWFort" ShiftState="None" BarState="Bar1" Char="5" />
+  <Key KeyName="Priest.Spirit" ShiftState="None" BarState="Bar1" Char="6" />
+  <Key KeyName="Paladin.HealOther" ShiftState="None" BarState="Bar1" Char="1" />
+  <Key KeyName="Paladin.FastHealOther" ShiftState="None" BarState="Bar1" Char="2" />
+  <Key KeyName="Paladin.BuffOthers" ShiftState="None" BarState="Bar1" Char="3" />
+  <Key KeyName="Paladin.BuffSelf" ShiftState="None" BarState="Bar1" Char="4" />
+  <Key KeyName="Shaman.Heal" ShiftState="None" BarState="Bar1" Char="1" />
+  <Key KeyName="Shaman.FastHeal  " ShiftState="None" BarState="Bar1" Char="2" />
+  <Key KeyName="Warlock.Haunt" ShiftState="None" BarState="Bar1" Char="2" />
+  <Key KeyName="Warlock.Corruption" ShiftState="None" BarState="Bar1" Char="6" />
+  <Key KeyName="Warlock.Immolate" ShiftState="None" BarState="Bar1" Char="4" />
+  <Key KeyName="Warlock.Curse" ShiftState="None" BarState="Bar1" Char="5" />
+  <Key KeyName="Warlock.Drainlife" ShiftState="None" BarState="Bar1" Char="9" />
+  <Key KeyName="Warlock.UA" ShiftState="None" BarState="Bar1" Char="3" />
+  <Key KeyName="Warlock.Fear" ShiftState="None" BarState="Bar2" Char="5" />
+  <Key KeyName="Warlock.HealthTunnel" ShiftState="None" BarState="Bar2" Char="9" />
+  <Key KeyName="Warlock.Drainsoul" ShiftState="None" BarState="Bar1" Char="8" />
+  <Key KeyName="Warlock.Bolt" ShiftState="None" BarState="Bar1" Char="1" />
+  <Key KeyName="Warlock.Lifetab" ShiftState="None" BarState="Bar1" Char="0" />
+  <Key KeyName="Warlock.Armor" ShiftState="None" BarState="Bar3" Char="1" />
+</Keys>

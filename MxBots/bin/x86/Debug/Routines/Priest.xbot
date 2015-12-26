@@ -1,0 +1,9 @@
+<<AttackingTarget>>
+->
+  CastSpell("Châtiment");
+<-
+
+<<HealingTarget>>
+->
+  CastSpell("Soins inférieurs");
+<-
